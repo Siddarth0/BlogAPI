@@ -7,6 +7,21 @@ Built with **Node.js, Express, and MongoDB**, this API demonstrates clean archit
 
 ---
 
+## 📡 Live API
+The API is deployed on Render and can be accessed at:
+
+https://blogapi-evgh.onrender.com
+
+Example endpoints:
+
+-GET /api/blogs → Fetch all blogs
+
+-POST /api/auth/register → Register a new user
+
+-POST /api/auth/login → Login to get JWT token
+
+---
+
 ## 🚀 Features
 
 - **User Authentication**
