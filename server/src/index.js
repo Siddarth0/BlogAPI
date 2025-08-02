@@ -6,15 +6,23 @@ import authRoutes from './routes/authRoutes.js';
 import { errorHandler } from './middleware/errorHandler.js';
 
 dotenv.config();
-connectDB();
 
 const app = express();
 app.use(express.json());
 
-app.use("/api/blogs", blogRoutes);
-app.use("/api/auth", authRoutes);
+connectDB()
+  .then(() => {
+    console.log('Database connected, starting server...');
 
-app.use(errorHandler);
+    app.use("/api/blogs", blogRoutes);
+    app.use("/api/auth", authRoutes);
 
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+    app.use(errorHandler);
+
+    const PORT = process.env.PORT || 8080;
+    app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+  })
+  .catch((error) => {
+    console.error('Failed to connect to database:', error.message);
+    process.exit(1);
+  });
