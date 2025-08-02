@@ -199,6 +199,12 @@ db.blogs.createIndex({ title: "text", description: "text" });
 
 ---
 
+## 📬 Postman Collection
+To make testing easier, I’ve prepared a Postman collection with all API endpoints and example requests.
+
+You can access it here:
+[Open Postman Workspace & Collection](https://platform-api-team-5250.postman.co/workspace/My-Workspace~e1bcf579-9631-4aa5-8ad6-2b759527e40f/collection/45632148-8f60167f-6e51-4bd2-a745-ac8a655d108c?action=share&creator=45632148)
+
 ## 🙏 Thank You
 
 Thank you for taking the time to review my submission for the **ebPearls API Development Challenge**.  
@@ -207,3 +213,4 @@ I truly appreciate the opportunity to demonstrate my skills.
 Looking forward to your valuable feedback!  
 
 **– Siddartha Kunwar**
+
