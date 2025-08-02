@@ -12,8 +12,7 @@ const blogSchema = new mongoose.Schema({
     tags: [{type:String, index: true}],
     comments: [commentSchema],
     author: {type: mongoose.Schema.Types.ObjectId, ref: "User", required:true},
-    createdAt: { type: Date, default: Date.now}
-});
+}, { timestamps: true });
 
 blogSchema.index({ title: 'text', description: 'text'});
 
