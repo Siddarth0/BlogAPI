@@ -1,7 +1,5 @@
 # BlogAPI
-A RESTful blog backend built with Node.js, Express, and MongoDB—featuring CRUD, comments, tags, and validation. Developed for EB Pearls' backend assignment.
-
-A simple and robust **RESTful API** for managing blogs with **user authentication, comments, tags, search, and pagination**.  
+A RESTful blog backend built with Node.js, Express, and MongoDB—featuring CRUD, comments, tags, and validation.  
 
 Built with **Node.js, Express, and MongoDB**, this API demonstrates clean architecture, secure authentication using JWT, and best practices for scalability.  
 
@@ -220,11 +218,6 @@ You can access it here:
 [Open Postman Workspace & Collection](https://platform-api-team-5250.postman.co/workspace/My-Workspace~e1bcf579-9631-4aa5-8ad6-2b759527e40f/collection/45632148-8f60167f-6e51-4bd2-a745-ac8a655d108c?action=share&creator=45632148)
 
 ## 🙏 Thank You
-
-Thank you for taking the time to review my submission for the **ebPearls API Development Challenge**.  
-I truly appreciate the opportunity to demonstrate my skills.  
-
-Looking forward to your valuable feedback!  
 
 **– Siddartha Kunwar**
 
